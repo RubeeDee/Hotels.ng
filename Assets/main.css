@@ -1,0 +1,306 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    height: 40px;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.tp-nv {
+    border: 1px solid;
+    background-color: #00aeff;
+    display: flex;
+}
+
+/* addition */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    background-color: #00aeff;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 1em 5em;
+}
+
+.logo>h2 {
+    color: white;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    margin: 0 5em;
+}
+
+.flag {
+    max-width: 2em;
+    height: 1.3em;
+    margin: 1em 0.6em 0;
+}
+
+.whatsapp {
+    color: #fff;
+}
+
+nav>div {
+    margin-right: 2em;
+    border-right: 1px solid #fff;
+    padding: 1em 1em 0;
+}
+
+.customer-care {
+    display: flex;
+}
+.customer-care>img {
+    max-width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.customer-details {
+background-color: #084482;
+padding: 2em 8em;
+border-radius: 8em;
+margin-left: -9em;
+font-size: 0.2rem;
+}
+
+.customer-details>p:first-child{
+    color: #00aeff;
+}
+.customer-details>p:last-child {
+    margin: 0.1em 2em;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.currency {
+    display: flex;
+}
+
+.currency p {
+    margin-top: 0.8em;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile>div {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.profile>div>i {
+    color: #00aeff;
+}
+.profile>p {
+    margin-top: 0.5em;
+    color: #fff;
+    margin-left: 0.8em;
+    font-size: 1.4rem;
+}
+/* addition */
+
+h2 {
+    text-decoration: none;
+    color: #14acf2;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+    width: 3%;
+    margin: 2% 48%;
+    color: #00aeff;
+    border: 2px solid #00aeff;
+}
+
+h3 {
+    font-size: 16px;
+    padding: 2%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.align {
+    justify-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.ft {
+    font-size: 14px;
+}
+
+.al {
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: -10%;
+    border: 1px solid;
+    background-color: #fff;
+    box-shadow: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #14acf2;
+}
+ 
+button {
+    color: #fff;
+    background-color: #00aeff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.back {
+    background-image: url(https://static.hotels.ng/v7/img/v7-homepage1.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.fs {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+}
+
+.ss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    text-align: initial;
+    grid-row-gap: 2%;
+}
+
+.ifs {
+    border: #00aeff solid 2px;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 10px;
+}
+
+.sss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    padding: 5%;
+    text-align: initial;
+    font-size: 100%;
+}
+
+.sss > div {
+    border: 1px solid #000;
+}
+
+.sss > div > img {
+    height: 85%;
+    width: 100%;
+}
+
+/* .kitex{
+    background-image: url(https://m.hotels.ng/img/h1448031/562/422/b1/kitex-place-1448031-24.jpg);
+}
+
+.avenues{
+    background-image: url(https://m.hotels.ng/img/h92856/562/422/b1/the-avenue-suites-92856-11.jpg);
+}
+
+.marmaris{
+    background-image: url(https://m.hotels.ng/img/h1470681/562/422/b1/marmaris-hotels-and-suites-1470681-17.jpg);
+}
+
+.maitama{
+    background-image: url(https://m.hotels.ng/img/h1470717/562/422/b1/e-gold-hotel-maitama-1470717-29.jpg);
+}
+
+.dallas{
+    background-image: url(https://m.hotels.ng/img/h1450864/dallas-grand-beach-hotel-&-resorts-1450864-39.jpg);
+}
+
+.agore{
+    background-image: url(https://m.hotels.ng/img/h71656/the-agore-hotels-ltd-71656-24.jpg);
+} */
+
+.bfy {
+    width: 20%;
+    height: inherit;
+    margin: 1%;
+    padding: 5% 2%;
+    border: 1px;
+}
+
+.lagos {
+    background: url(https://static.hotels.ng/v7/img/popular/lagos_city1.jpg);
+}
+
+.abuja {
+    background-image: url(https://static.hotels.ng/v7/img/popular/abuja_city1.jpg);
+}
+
+.calabar {
+    background-image: url(https://static.hotels.ng/v7/img/popular/crossriver_city1.jpg)
+}    
+
+.ph {
+    background-image: url(https://static.hotels.ng/v7/img/popular/port-harcourt_city1.jpg);
+}
+
+.owerri {
+    background-image: url(https://static.hotels.ng/v7/img/popular/owerri_city1.jpg)
+}
+
+.uyo {
+    background-image: url(https://static.hotels.ng/v7/img/popular/uyo_city1.jpg)
+}
+
+/* footer */
+.extras {
+    display: flex;
+    padding: 4% 10%;
+    font-size: 14px;
+}
+
+.roll {
+    padding: 0% 3%;
+}
+
+.top {
+    border-bottom: 1px solid grey;
+}
+
+.bott {
+    text-align: center;
+}
